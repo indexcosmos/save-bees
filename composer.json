@@ -1,0 +1,27 @@
+{
+  "name": "indexcosmos/Save-bees",
+  "description": "Save bees!",
+  "homepage": "http://robotpower.me/savebees/play.html",
+  "keywords": ["canvas game", "html5 game", "websocket game", "php game"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kimberly Drzewicki",
+      "email": "kdrewdesigns@gmail.com",
+      "role": "Designer/Developer"
+    },
+    {
+      "name": "Ryan Tulino",
+      "email": "rtulino@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Save Bees\\": "src"
+    }
+  },
+  "require": {
+    "cboden/ratchet": "^0.3.3"
+  }
+}
