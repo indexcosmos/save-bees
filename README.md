@@ -1,11 +1,11 @@
-# Boxes-Adventure 
+# Save-Bees, the game!
 
-Introduction 
+Introduction
 
-Game Play 
+Game Play
 
-Objectives 
+Objectives
 
-Solve Maps 
+Solve Maps
 
 Accomplishments
