@@ -1,5 +1,5 @@
 <?php
-namespace SaveBees;
+namespace BoxesAdventure;
 
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;

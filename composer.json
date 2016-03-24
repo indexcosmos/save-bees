@@ -1,7 +1,7 @@
 {
-  "name": "indexcosmos/Save-bees",
-  "description": "Save bees!",
-  "homepage": "http://robotpower.me/savebees/play.html",
+  "name": "indexcosmos/save-bees",
+  "description": "Save Bees!",
+  "homepage": "https://github.com/indexcosmos/save-bees",
   "keywords": ["canvas game", "html5 game", "websocket game", "php game"],
   "license": "MIT",
   "authors": [
@@ -18,7 +18,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Save Bees\\": "src"
+      "SaveBees\\": "src"
     }
   },
   "require": {
