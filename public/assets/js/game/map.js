@@ -7,9 +7,9 @@ Map = {
 
     blocks: {},
 
-    block_color: 'transparent',
+    block_color: 'black',
 
-    home_color: 'transparent',
+    home_color: 'blue',
 
     init: function()
     {

@@ -13,9 +13,9 @@ HUD = {
      */
     draw: function($)
     {
-        $.context.fillStyle = 'black';
+        $.context.fillStyle = 'gray';
         $.context.globalAlpha = 0.5;
-        $.context.fillRect(0, 0, 200, 55);
+        $.context.fillRect(0, 0, 74, 51);
         $.context.globalAlpha = 1;
 
         var count = 1;

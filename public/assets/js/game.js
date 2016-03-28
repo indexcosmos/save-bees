@@ -1,4 +1,4 @@
-var Game;
+ var Game;
 Game = {
 
     keys: [],
@@ -22,7 +22,7 @@ Game = {
             collide: 0,
             start_profile: null,
             finish_profile: null,
-            profile: 'box',
+            profile: 'bee',
             crouching: false,
             velX: 0,
             velY: 0,

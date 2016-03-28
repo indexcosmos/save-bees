@@ -1,7 +1,7 @@
 var Rewards;
 Rewards = {
 
-    fillStyle: 'transparent',
+    fillStyle: 'red',
 
     init: function()
     {

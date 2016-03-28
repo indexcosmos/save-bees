@@ -1,7 +1,7 @@
 /**
  * Box profile
  */
-Player.profiles.box = function()
+Player.profiles.bee = function()
 {
     Game.config.player.jump = 1.0;
 
@@ -23,11 +23,11 @@ Player.profiles.square = function()
 /**
  * Star profile
  */
-Player.profiles.star = function()
+Player.profiles.nectar = function()
 {
-    Game.config.player.jump = 2.0;
+    Game.config.player.jump = 1.3;
 
-    Game.config.player.double_jump = 1.2;
+    Game.config.player.double_jump = 0.5;
 };
 
 /**
@@ -40,4 +40,14 @@ Player.profiles.circle = function()
     Game.config.player.jump = 1.5;
 
     Game.config.player.double_jump = 1.2;
+};
+
+/**
+ * Star profile
+ */
+Player.profiles.floor = function()
+{
+  window.location = "?map="+(Game.config.next - 1);
+
+
 };

@@ -5,8 +5,8 @@
     "width":1,
     "height":1
   },
-  "friction":0.8,
-  "gravity":0.3,
+  "friction":0.7,
+  "gravity":0.2,
   "background":"assets/images/1.svg",
   "start_screen":"assets/images/start.svg",
   "player":{
@@ -14,10 +14,10 @@
     "y":159,
     "width":23,
     "height":20,
-    "speed":5,
+    "speed":3,
     "dir":"l",
-    "start_profile":"box",
-    "finish_profile":"star"
+    "start_profile":"bee",
+    "finish_profile":"nectar"
   },
   "blocks":[
     {
@@ -82,7 +82,7 @@
       "y":122,
       "width":10,
       "height":10,
-      "profile":"star"
+      "profile":"nectar"
     }
 
   ],
