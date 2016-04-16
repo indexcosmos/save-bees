@@ -1,65 +1,56 @@
 {
-  "width":900,
-  "height":450,
+  "width":300,
+  "height":200,
   "grid":{
     "width":1,
     "height":1
   },
-  "friction":0.8,
-  "gravity":0.3,
-  "background":"assets/images/3.png",
-  "start_screen":"assets/images/start.png",
+  "friction":0.7,
+  "gravity":0.2,
+  "background":"assets/images/3.svg",
+  "map_screen":"assets/images/mp3.svg",
+  "start_screen":"assets/images/bf2.svg",
   "player":{
-    "x":500,
-    "y":350,
-    "width":38,
-    "height":38,
-    "speed":5,
+    "x":34,
+    "y":95,
+    "width":23,
+    "height":20,
+    "speed":3,
     "dir":"l",
-    "start_profile":"box",
-    "finish_profile":"star",
-    "rez_limit":4
+    "start_profile":"bee",
+    "finish_profile":"comb",
+    "rez_limit":6
   },
   "blocks":[
     {
-      "x":0,
-      "y":395,
-      "width":900,
-      "height":55
-    },
-    {
-      "x":600,
-      "y":115,
-      "width":297,
-      "height":48
-    },
-    {
-      "x":3,
-      "y":115,
-      "width":300,
-      "height":48
+      "x":32,
+      "y":107,
+      "width":21,
+      "height":29
     }
+
   ],
   "rewards":[
     {
-      "x":104,
-      "y":360,
+      "x":39,
+      "y":97,
       "width":10,
       "height":10,
-      "profile":"square"
+      "profile":"comb"
     },
     {
-      "x":106,
-      "y":84,
-      "width":10,
+      "x":0,
+      "y":198,
+      "width":300,
       "height":10,
-      "profile":"star"
+      "profile":"floor"
     }
+
   ],
   "home":{
-    "x":786,
-    "y":58,
-    "width":30,
-    "height":30
+    "x":248,
+    "y":160,
+    "width":25,
+    "height":25
   }
 }

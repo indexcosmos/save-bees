@@ -23,22 +23,31 @@ Property.avatar = function(ctx, x, y, dir){
  */
 Property.blue_box = function(ctx, x, y, dir){
 
-    var width = 40;
-    var height = 40;
+    var width = 20;
+    var height = 20;
 
     x -= width;
     y -= height;
 
-    ctx.beginPath();
-    ctx.fillStyle = "rgb(50, 117, 200)";
-    ctx.moveTo(x+6.7, y+40.5);
-    ctx.lineTo(x+40.5, y+40.5);
-    ctx.lineTo(x+40.5, y+6.5);
-    ctx.lineTo(x+6.7, y+6.5);
-    ctx.lineTo(x+6.7, y+40.5);
-    ctx.closePath();
-    ctx.fill();
-    ctx.stroke();
+    // layer23/
+      ctx.save();
+      ctx.restore();
+
+      // layer22/Path
+      ctx.save();
+      ctx.beginPath();
+      ctx.moveTo(x+10.1, y+32.5);
+      ctx.lineTo(x+0.6, y+16.5);
+      ctx.lineTo(x+10.1, y+0.5);
+      ctx.lineTo(x+29.1, y+0.5);
+      ctx.lineTo(x+38.6, y+16.5);
+      ctx.lineTo(x+29.1, y+32.5);
+      ctx.lineTo(x+10.1, y+32.5);
+      ctx.closePath();
+      ctx.fill();
+      ctx.strokeStyle = "rgb(25, 25, 25)";
+      ctx.stroke();
+      ctx.restore();
 
     return {
         x: x,

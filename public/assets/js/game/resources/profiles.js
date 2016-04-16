@@ -11,7 +11,7 @@ Player.profiles.bee = function()
 /**
  * Square profile
  */
-Player.profiles.square = function()
+Player.profiles.comb = function()
 {
     Game.config.player.jump = 1.0;
 
@@ -43,11 +43,11 @@ Player.profiles.circle = function()
 };
 
 /**
- * Star profile
+ * floor profile
  */
 Player.profiles.floor = function()
 {
+
   window.location = "?map="+(Game.config.next - 1);
-
-
+  
 };

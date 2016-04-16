@@ -4,6 +4,7 @@ Game = {
     keys: [],
     config: {
         background: null,
+        map_screen: null,
         start_screen: null,
         size: 1,
         width: null,
@@ -81,9 +82,23 @@ Game = {
         Canvas.setBackground(this.config.start_screen);
 
         // click to start
-        Dispatcher.add('load', 'mousedown', function(){
-            Game.start();
+        Dispatcher.add('map_screen', 'mousedown', function(){
+            Game.map_screen();
         });
+    },
+
+    map_screen: function()
+    {
+      // remove click to start
+      Dispatcher.remove('map_screen', 'mousedown');
+
+      // set start screen
+      Canvas.setBackground(this.config.map_screen);
+
+      // click to start
+      Dispatcher.add('load', 'mousedown', function(){
+          Game.start();
+      });
     },
 
     /**

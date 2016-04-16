@@ -8,6 +8,7 @@
   "friction":0.7,
   "gravity":0.2,
   "background":"assets/images/2.svg",
+  "map_screen":"assets/images/mp2.svg",
   "start_screen":"assets/images/bf1.svg",
   "player":{
     "x":12,

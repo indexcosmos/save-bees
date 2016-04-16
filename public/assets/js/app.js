@@ -1,5 +1,5 @@
 
-var log = function(n){
+var log = function(n){ 
     console.log(n);
 };
 

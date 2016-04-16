@@ -8,7 +8,9 @@
   "friction":0.7,
   "gravity":0.2,
   "background":"assets/images/1.svg",
+  "map_screen":"assets/images/mp1.svg",
   "start_screen":"assets/images/start.svg",
+
   "player":{
     "x":120,
     "y":159,
